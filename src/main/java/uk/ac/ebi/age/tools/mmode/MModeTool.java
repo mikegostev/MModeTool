@@ -5,8 +5,8 @@ import org.kohsuke.args4j.CmdLineParser;
 
 import uk.ac.ebi.age.admin.client.AgeAdminService;
 import uk.ac.ebi.age.admin.remote.AgeAdminRemote;
-import uk.ac.ebi.age.admin.shared.user.exception.NotAuthorizedException;
-import uk.ac.ebi.age.admin.shared.user.exception.UserAuthException;
+import uk.ac.ebi.age.ext.user.exception.NotAuthorizedException;
+import uk.ac.ebi.age.ext.user.exception.UserAuthException;
 
 public class MModeTool
 {
